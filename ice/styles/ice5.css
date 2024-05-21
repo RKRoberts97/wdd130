@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(66, 65, 65);
+    margin: 0 auto;
+}
+.banner{
+    width: 100%;
+}
+#picture{
+    align-content: center;
+}
+.circled {
+    border-radius: 100%;
+    border: 15px solid black;
+    width: 20%;
+    align-items: center;
+    margin: 5%;
+}
