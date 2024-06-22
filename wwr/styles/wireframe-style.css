@@ -198,7 +198,19 @@ main section img {
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
 }
-
+h1 {
+    color: #28465c;
+}
+.blog_entry {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    width: 50%;
+    margin: 0 auto; 
+}
+.blog_text {
+    text-align: center;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
